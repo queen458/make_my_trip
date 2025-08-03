@@ -6,3 +6,11 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // Enables static HTML export
+};
+
+module.exports = nextConfig;
